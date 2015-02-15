@@ -1,5 +1,5 @@
 {
-  "name": "deliciousevernote",
+  "name": "tastyelephant",
   "version": "1.0.0",
   "description": "Migrate Delicious bookmarks html file to individual Evernote notes",
   "main": "index.js",
