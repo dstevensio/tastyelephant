@@ -10,18 +10,16 @@ your Delicious bookmarks to individual notes in an Evernote notebook.
 2. Install TastyElephant (requires [http://nodejs.org](node.js) or
    [http://iojs.org](io.js) ):
    ```
-   git clone https://github.com/shakefon/tastyelephant
-   
-   cd tastyelephant && sudo npm install
+   npm install -g tastyelephant
    ```
 3. Run TastyElephant:
   ```
-  node . -i /PATH/TO/DELICIOUS/HTML_FILE
+  tastyelephant -i /PATH/TO/DELICIOUS/HTML_FILE
   ```
 4. Import generated `deliciousimport.enex` to Evernote by selecting it in the
    dialog that appears when you click `File > Import Notes...`
 
-Usage: `node . -i <PATH_TO_DELICIOUS_HTML_FILE> [-o <PATH_TO_OUTPUT_DIRECTORY>]`
+Usage: `tastyelephant -i <PATH_TO_DELICIOUS_HTML_FILE> [-o <PATH_TO_OUTPUT_DIRECTORY>]`
 
 Options:                      
 ```
