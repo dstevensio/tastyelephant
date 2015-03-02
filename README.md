@@ -9,10 +9,12 @@ your Delicious bookmarks to individual notes in an Evernote notebook.
    [http://export.delicious.com/settings/bookmarks/export](export.delicious.com)
 2. Install TastyElephant (requires [http://nodejs.org](node.js) or
    [http://iojs.org](io.js) ):
+
    ```
    npm install -g tastyelephant
    ```
 3. Run TastyElephant:
+
   ```
   tastyelephant -i /PATH/TO/DELICIOUS/HTML_FILE
   ```
